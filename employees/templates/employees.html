@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Members</h1>
+  
+<ul>
+  {% for x in mymembers %}
+    <li>{{x.id}} {{ x.firstname }} {{ x.emp_id }}</li>
+  {% endfor %}
+</ul>
+
+</body>
+</html>
